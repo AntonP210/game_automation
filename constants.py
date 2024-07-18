@@ -1,7 +1,7 @@
 import os
 
 
-MEMU_DIR = '"D:/Program Files/Microvirt/MEmu/MEmu.exe"'
+MEMU_DIR = ''
 MAIN_DIR = os.path.dirname(__file__)  # Directory of the current script
 
 MEMU_LOGO = os.path.join(MAIN_DIR, 'images', 'memu_logo.png')  
