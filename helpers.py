@@ -35,7 +35,7 @@ def open_program(program_command):
     time.sleep(1)
     pyautogui.write(program_command)
     pyautogui.press('enter')
-    time.sleep(35)  # Wait for the program to open
+    time.sleep(60)  # Wait for the program to open
     
 def wait_and_click(image_path, ):
     element = wait_for_element(image_path)
