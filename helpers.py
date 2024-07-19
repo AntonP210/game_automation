@@ -25,7 +25,7 @@ def wait_for_element(image_path, timeout=30, region=None, grayscale=True, confid
         time.sleep(1)  # Wait for a short period before checking again
     return None
 
-def open_program(program_command):
+def open_memu(program_command):
     """
     Open a program using the Win + R command.
 
@@ -41,4 +41,6 @@ def wait_and_click(image_path, ):
     element = wait_for_element(image_path)
     assert element is not None, "Element is missing"
     pyautogui.click(element)
+    
+
     
